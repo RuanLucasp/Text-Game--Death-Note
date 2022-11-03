@@ -13,6 +13,9 @@ int main(int argc, char const *argv[])
 	printf("	 ▒▒▓  ▒ ░░ ▒░ ░▒▒   ▓▒█░ ▒ ░░    ▒ ░░▒░▒   ░ ▒░   ▒ ▒ ░ ▒░▒░▒░   ▒ ░░   ░░ ▒░ ░\n");   
 	printf("	 ░ ▒  ▒  ░ ░  ░ ▒   ▒▒ ░   ░     ▒ ░▒░ ░   ░ ░░   ░ ▒░  ░ ▒ ▒░     ░     ░ ░  ░\n");   
 	printf("	   ░       ░  ░     ░  ░         ░  ░  ░            ░     ░ ░              ░  ░\n");
+    printf(" +-++-++-++-++-++-++-+ +-++-++-++-++-+ +-++-++-+ +-++-++-+ +-++-++-++-++-++-++-+ +-++-+ +-++-++-++-++-++-+ +-++-++-++-++-+\n");
+    printf(" |A||n||o||t||h||e||r| |N||o||t||e||:| |T||h||e| |L||o||s| |A||n||g||e||l||e||s| |B||B| |M||u||r||d||e||r| |C||a||s||e||s|\n");
+    printf(" +-++-++-++-++-++-++-+ +-++-++-++-++-+ +-++-++-+ +-++-++-+ +-++-++-++-++-++-++-+ +-++-+ +-++-++-++-++-++-+ +-++-++-++-++-+\n");
     printf("\n");
     printf("\n");
     printf("Pŕologo: \n");
@@ -24,5 +27,16 @@ int main(int argc, char const *argv[])
     printf("Mas desta vez ele precisa de ajuda. \n");
     printf("\n");
     printf("Utilizando os serviços de uma agente do FBI chamada Naomi Misora, L inicia uma busca por vestígios em toda Califórnia. Pra ela logo se torna evidente que a matança é um enigma psicótico projetado especificamente para engajar L em uma batalha de inteligência. Uma verdadeira batalha de raciocínio entre assassino e investigador, onde Misora se encontra entre eles, e, onde Misora começa a navegar entre os corpos e as pistas para resolver o caso de homicídios B.B de Los Angeles. \n");
+    printf("\n");
+    printf(" ██▓███   ▄▄▄       ██▀███  ▄▄▄█████▓    ▒█████   ███▄    █ ▓█████     ███▄ ▄███▓▓█████   ██████   ██████  ▄▄▄        ▄████ ▓█████ \n");
+    printf("▓██░  ██▒▒████▄    ▓██ ▒ ██▒▓  ██▒ ▓▒   ▒██▒  ██▒ ██ ▀█   █ ▓█   ▀    ▓██▒▀█▀ ██▒▓█   ▀ ▒██    ▒ ▒██    ▒ ▒████▄     ██▒ ▀█▒▓█   ▀ \n");
+    printf("▓██░ ██▓▒▒██  ▀█▄  ▓██ ░▄█ ▒▒ ▓██░ ▒░   ▒██░  ██▒▓██  ▀█ ██▒▒███      ▓██    ▓██░▒███   ░ ▓██▄   ░ ▓██▄   ▒██  ▀█▄  ▒██░▄▄▄░▒███   \n");
+    printf("▒██▄█▓▒ ▒░██▄▄▄▄██ ▒██▀▀█▄  ░ ▓██▓ ░    ▒██   ██░▓██▒  ▐▌██▒▒▓█  ▄    ▒██    ▒██ ▒▓█  ▄   ▒   ██▒  ▒   ██▒░██▄▄▄▄██ ░▓█  ██▓▒▓█  ▄ \n");
+    printf("▒██▒ ░  ░ ▓█   ▓██▒░██▓ ▒██▒  ▒██▒ ░    ░ ████▓▒░▒██░   ▓██░░▒████▒   ▒██▒   ░██▒░▒████▒▒██████▒▒▒██████▒▒ ▓█   ▓██▒░▒▓███▀▒░▒████▒\n");
+    printf("▒▓▒░ ░  ░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░  ▒ ░░      ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ ░░ ▒░ ░   ░ ▒░   ░  ░░░ ▒░ ░▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░ ▒▒   ▓▒█░ ░▒   ▒ ░░ ▒░ ░\n");
+    printf("░▒ ░       ▒   ▒▒ ░  ░▒ ░ ▒░    ░         ░ ▒ ▒░ ░ ░░   ░ ▒░ ░ ░  ░   ░  ░      ░ ░ ░  ░░ ░▒  ░ ░░ ░▒  ░ ░  ▒   ▒▒ ░  ░   ░  ░ ░  ░\n");
+    printf("░░         ░   ▒     ░░   ░   ░         ░ ░ ░ ▒     ░   ░ ░    ░      ░      ░      ░   ░  ░  ░  ░  ░  ░    ░   ▒   ░ ░   ░    ░   \n");
+    printf("               ░  ░   ░                     ░ ░           ░    ░  ░          ░      ░  ░      ░        ░        ░  ░      ░    ░  ░\n");
+    printf("                                                                                                                                   \n");
     return 0;
 }
