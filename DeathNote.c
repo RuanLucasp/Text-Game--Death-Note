@@ -1,15 +1,18 @@
-<<<<<<< HEAD
-int main(){
-    printf("Hello World");
-    return 0;
-}
-=======
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
-int main()
+int main(int argc, char const *argv[])
 {   
-    printf("===================||Death Note Another Note: The Los Angeles BB Murder Cases||=========================");
+    setlocale(LC_ALL, "Portuguese");
+	printf("	▓█████▄ ▓█████ ▄▄▄     ▄▄▄█████▓ ██░ ██     ███▄    █  ▒█████  ▄▄▄█████▓▓█████ \n");
+	printf("	▒██▀ ██▌▓█   ▀▒████▄   ▓  ██▒ ▓▒▓██░ ██▒    ██ ▀█   █ ▒██▒  ██▒▓  ██▒ ▓▒▓█   ▀ \n");  
+	printf("	░██   █▌▒███  ▒██  ▀█▄ ▒ ▓██░ ▒░▒██▀▀██░   ▓██  ▀█ ██▒▒██░  ██▒▒ ▓██░ ▒░▒███   \n");   
+	printf("	░▓█▄   ▌▒▓█  ▄░██▄▄▄▄██░ ▓██▓ ░ ░▓█ ░██    ▓██▒  ▐▌██▒▒██   ██░░ ▓██▓ ░ ▒▓█  ▄ \n");   
+	printf("	░▒████▓ ░▒████▒▓█   ▓██▒ ▒██▒ ░ ░▓█▒░██▓   ▒██░   ▓██░░ ████▓▒░  ▒██▒ ░ ░▒████▒\n");  
+	printf("	 ▒▒▓  ▒ ░░ ▒░ ░▒▒   ▓▒█░ ▒ ░░    ▒ ░░▒░▒   ░ ▒░   ▒ ▒ ░ ▒░▒░▒░   ▒ ░░   ░░ ▒░ ░\n");   
+	printf("	 ░ ▒  ▒  ░ ░  ░ ▒   ▒▒ ░   ░     ▒ ░▒░ ░   ░ ░░   ░ ▒░  ░ ▒ ▒░     ░     ░ ░  ░\n");   
+	printf("	   ░       ░  ░     ░  ░         ░  ░  ░            ░     ░ ░              ░  ░\n");
     printf("\n");
     printf("\n");
     printf("Pŕologo: \n");
@@ -23,5 +26,3 @@ int main()
     printf("Utilizando os serviços de uma agente do FBI chamada Naomi Misora, L inicia uma busca por vestígios em toda Califórnia. Pra ela logo se torna evidente que a matança é um enigma psicótico projetado especificamente para engajar L em uma batalha de inteligência. Uma verdadeira batalha de raciocínio entre assassino e investigador, onde Misora se encontra entre eles, e, onde Misora começa a navegar entre os corpos e as pistas para resolver o caso de homicídios B.B de Los Angeles. \n");
     return 0;
 }
-
->>>>>>> 8c4093b03885c87f27561137006af6a0d7a8d700
