@@ -245,12 +245,12 @@ void message() {
     printf("{__|""|_______'-\n");
     printf("`---------------'\n");getchar();
     printf("Ela foi informada que foi cinco vezes criptografado e completamente seguro.\n");getchar();
-    printf(" - L, cheguei a cena do crime\n");
+    printf(" - L, cheguei a cena do crime\n");getchar();
     printf(" - Bem.\n");getchar();
     printf("    como se esperasse alguma coisa dela\n");getchar();
     printf(" - O'Que devo fazer?\n");getchar();
     printf(" - Naomi Misora você está dentro ou fora do prédio?\n");getchar();
-    printf("    Naomi Misora - Fora. Cheguei ao local do crime, mas ainda não entrei.\n");getchar();
+    printf(" - Fora. Cheguei ao local do crime, mas ainda não entrei.\n");getchar();
     printf(" - Então, por favor entre. Devo informá-la que está aberta. Eu preparei a situação.\n");getchar();
     printf(" - Obrigada\n");getchar();
     printf("Ela abriu a porta e entrou na casa.\n");getchar();
