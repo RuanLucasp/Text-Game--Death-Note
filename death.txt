@@ -58,3 +58,25 @@ int main () {
 	carregando();
 	prologo();
 }
+
+
+********************************************
+int escreve(char frase[1000]) {
+	char arrayfrase[1000];
+	sprintf( arrayfrase, frase);
+    int tamanho = strlen( arrayfrase); //isto funciona só para delimitador de 1 caractere
+    char *token = strtok( arrayfrase, " ");
+  
+    while(token != NULL) {
+        printf(" %s", token);
+        token = strtok(NULL, " ");
+       	system("sleep 0.0001");
+    }
+}
+
+void main()
+{
+	char arrayfrase[1000];
+	sprintf( arrayfrase, "Há um serial killer à solta em Los Angeles e as autoridades locais precisam de ajuda rápida.\n Por alguma razão, o assassino foi deixando uma série de pistas em cada cena do crime. Cada\n um desses indícios parece um roteiro indecifrável para o próximo assasinato. Na cena vem L,\n  um detetive misterioso que nunca mostrou seu rosto em público. Nunca foi abordado um caso onde\n ele não foi capaz de resolvê-l. Mas desta vez ele precisa de ajuda.\n Utilizando os serviços de uma agente do FBI chamada Naomi Misora, L inicia uma busca por vestígios\n em toda Califórnia.\n");
+	escreve(arrayfrase);
+}
