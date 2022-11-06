@@ -85,6 +85,15 @@ void message() {
     printf("|     |  >>>>>\n");
     printf("|-___-|  >>>>>\n");
     printf("'.___.'\n");getchar();
+    int testeUm = 0; //declarando e inicializando a variável de controle
+  	while (testeUm != 2) // Testando a condição
+  {
+  	printf("PARA REMOVER A PROTEÇAO DE TELA. RESOLVA O TESTE:\n\n");
+    printf("Examinando o padrão da série: 33, 31, 27, 25, 21; que número virá a seguir?\n"); 
+    printf("Digite a resposta:\n");
+    printf(" (1) - 24 | (2) - 19 | (3) - 17 | (4) - 16 | (5) - 20\n");
+    scanf("%d", &testeUm);
+  }  
     printf("“Proteção de Tela Removida”\n");getchar(); // Colocar Charada para desbloquear a tela
     printf("Misora se sente ainda mais confusa, o principal programa de e-mail foi usado e sinalizava uma mensagem\n\n");getchar();
     printf("             ________________________________________________\n");
@@ -383,7 +392,7 @@ void message() {
     printf(" - Uma carta? Ele estava avisando? A polícia de Los Angeles…? - Ligado ao caso?\n");getchar();
     printf("	No momento, nenhum dos envolvidos encontraram uma ligação. Eu não sei ao certo se realmente existe uma, mas eu penso que sim.\n");getchar();
  	printf(" - Qual chance?\n");getchar();
- 	printf(" - de 80 %\n");getchar();   
+ 	printf(" - de 80 porcento\n");getchar();   
  	printf("	Resposta instantânea\n");getchar();
  	printf(" - O remetente é desconhecido – foi utilizado um sistema de revezamento na transferência e não há maneira de dizer de onde veio. Dentro do envelope estava um pedaço de papel que parecia um jogo de palavras cruzadas.\n");getchar(); 
  	printf(" - Palavras cruzadas? Hum…\n");getchar();
