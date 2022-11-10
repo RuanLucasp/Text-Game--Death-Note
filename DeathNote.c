@@ -444,27 +444,6 @@ void message() {
  	printf("	disse ele completamente imperturbável. Curvou-se ainda mais baixo. \n");getchar(); 
  	printf(" - Por favor me chame de Ryuzaki.\n");getchar();
  	//Talvez colocar uma ascii art de riuuzaki
- 	printf("\n");getchar(); 
- 	printf("\n");getchar();
- 	printf("\n");getchar();   
- 	printf("\n");getchar();
- 	printf("\n");getchar(); 
- 	printf("\n");getchar();
- 	printf("\n");getchar(); 
- 	printf("\n");getchar();
- 	printf("\n");getchar(); 
- 	printf("\n");getchar();
- 	printf("\n");getchar(); 
- 	printf("\n");getchar();
- 	printf("\n");getchar();   
- 	printf("\n");getchar();
- 	printf("\n");getchar(); 
- 	printf("\n");getchar();
- 	printf("\n");getchar(); 
- 	printf("\n");getchar();
- 	printf("\n");getchar(); 
- 	printf("\n");getchar();
- 	printf("\n");getchar(); 
 
 
 }
