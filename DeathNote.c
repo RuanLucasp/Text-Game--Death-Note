@@ -282,7 +282,7 @@ int main(void) {
 			printObj(watchOut);
 			watchOut = 0;
 			printf("Vamos lá então, quem é o culpado do sequestro e a próxima vítima, respectivamente?\n\n");
-			printf("Selecione uma das opções \n");
+			printf("Selecione uma das opções, Se escolher a opção errada voltará para encontrar as pistas, se escolher a certa o jogo prosseguirá\n");
 			printf("1 = Renatinho15 e Luquinhas\n");
 			printf("2 = Iago e Tiaginho\n");
 			printf("3 = Pelé e Ronaldo\n");
@@ -330,7 +330,6 @@ int main(void) {
     		getchar();
     		printf("Agora que sei quem é a próxima vítima, preciso saber onde ela será morta, devo continuar procurando pistas...\n");
     		getchar();
-			system("clear");
 			printf("A próxima vítima era um repórter freelancer e músico nas horas vagas que foi assasinado por envenenamento em casa.\n");
     		getchar();
 			system("clear");
@@ -359,13 +358,13 @@ int main(void) {
 					currentLevel = 12;
 					break;
 				case 2:
-					currentLevel = 5;
+					currentLevel = 17;
 					break;
 				case 3:
-					currentLevel = 8;
+					currentLevel = 20;
 					break;
 				case 4:
-					currentLevel = 9;
+					currentLevel = 23;
 					break;
 				default:
 					watchOut = 1;
@@ -377,20 +376,42 @@ int main(void) {
 			watchOut = 0;
 			printf("A sala está aparentemente bem arrumada, nada fora do comum... aqui foi onde o cadáver dele foi achado jogado no chão\n\n");
 			printf("Oque quer investigar?\n");
-			printf("1 = Procurar na estante de discos\n");
-			printf("2 = Investigar o sofá\n");
+			printf("1 = Investigar o sofá\n");
+			printf("2 = Procurar na estante de discos\n");
 			printf("3 = Olhar o célular derrubado no chão\n");
-			printf("4 = Voltar ao incício\n");
+			printf("4 = Voltar ao inicio\n");
 			choice = scanint();	//Scans the player's choice
 			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
 				case 1:
-					currentLevel = 3;
+					currentLevel = 13;
 					break;
 				case 2:
-					currentLevel = 4;
+					currentLevel = 14;
 					break;
 				case 3:
-					currentLevel = 1;
+					currentLevel = 16;
+					break;
+				case 4:
+					currentLevel = 11;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 13) {//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+            printf("Hmm parece um sofá normal, espera... ele esta marcado em dois lugares, isso pode indicar que 2 pessoas estavam sentadas aqui..\n\n");
+            printf("Oque você quer fazer a seguir?\n");
+            printf("1 = voltar a sala\n");
+            printf("2 = Voltar ao inicio\n"); 
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 12;
+					break;
+				case 2:
+					currentLevel = 11;
 					break;
 				default:
 					watchOut = 1;
@@ -401,7 +422,7 @@ int main(void) {
 			printObj(watchOut);
 			watchOut = 0;
             printf("Olha só quantos discos... Nirvana, ACDC, Red Hot Chilli Peppers, Gun's Roses, é... aparentemente esse indivíduo tinha um ótimo gosto pra música.\n\n");
-            printf("Parece que há um mp3 com uma música\n");
+            printf("Parece que há um mp3 com uma música, devia ser importante para ele.\n");
             printf("Você quer tocá-lo?\n");
             printf("1 = Tocar mp3\n");
             printf("2 = Voltar ao inicio\n"); 
@@ -423,12 +444,12 @@ int main(void) {
 			watchOut = 0;
             printf("*Tocando Música* só escuto alguns beeps... nada de música... espera isso poderia ser código morse?\n\n");
             printf("Se eu anotar todos beeps em código morse tenho...\n");
-            printf(". . . ");
-            printf(".");
-            printf("_ .");
-            printf("_ .");
-            printf(". _");
-            printf("Você consegue decifrá-lo?\n");
+            printf(". . . \n");
+            printf(". \n");
+            printf("_ . \n");
+            printf("_ . \n");
+            printf(". _ \n\n");
+            printf("Isso deve ter o nome do culpado. Você consegue decifrá-lo?\n");
             printf("1 = Robert\n");
             printf("2 = 40228922\n");
             printf("3 = Jessy\n");
@@ -436,7 +457,39 @@ int main(void) {
 			choice = scanint();	//Scans the player's choice
 			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
 				case 1:
-					currentLevel = 15;
+					printf("Robert né, esta bem.\n");
+					currentLevel = 11;
+					break;
+				case 2:
+					printf("hmm essa sequência de números traz boas lembranças... ok vamos lá.");
+					currentLevel = 11;
+					break;
+				case 3:
+					printf("Jessy, um nome peculiar, vamos lá...");
+					currentLevel = 11;
+					break;
+				case 4:
+					printf("Senna, que nome bonito.. continuando...");
+					currentLevel = 11;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+
+		while (currentLevel == 16) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+            printf("Ora Ora, temos um celular caído no chão, vamos ver oque tem nele...\n");
+            printf("O celular estava aberto na casa de mensagens, em uma conversa com um contato chamado Amor, a última mensagen: porque você nao vem aqui, estou com saudades.\n\n");
+            printf("E agora?\n");
+            printf("1 = Voltar a sala\n");
+            printf("2 = Voltar ao inicio\n"); 
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 12;
 					break;
 				case 2:
 					currentLevel = 11;
@@ -446,5 +499,205 @@ int main(void) {
 					break;	//Default message for when the player types in the wrong number
 			}
 		}
+		while (currentLevel == 17) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Nossa olha esses equipamentos e instrumentos, ele realmente gostava de música...\n\n");
+			printf("Oque quer investigar?\n");
+			printf("1 = Ver o teclado\n");
+			printf("2 = Olhar os cases dos instrumentos\n");
+			printf("3 = Voltar ao inicio\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 18;
+					break;
+				case 2:
+					currentLevel = 19;
+					break;
+				case 3:
+					currentLevel = 11;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 18) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Que tal experimentar o teclado? se eu usar a intuição devo conseguir... *L toca teclado*\n\n");
+			printf("Oque quer fazer\n");
+			printf("1 = Voltar\n");
+			printf("3 = Voltar ao inicio\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 17;
+					break;
+				case 2:
+					currentLevel = 11;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 19) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Certo hora de olhar esses cases, um por um... Olha só achei um pendrive e um bilhete, vamos ver oque tem dentro... L coloca no seu notebook\n");
+			printf("O bilhete diz : Lugar do acerto de contas, L\n");
+			printf("Hunhunhun, muito engraçado\n");
+			printf("*Tocando música* Interessante, mais uma sequência de beeps, vamos ver oque é...\n\n");
+			printf(". . . \n");
+			printf(". _ \n");
+			printf(". _ . . \n");
+			printf(". _ \n");
+			printf("_ _ \n");
+			printf(".\n");
+			printf("_ . . \n");
+			printf(". _ \n");
+			printf(". . . \n");
+			printf("_ \n\n");
+			printf("Você consegue decifrár oque é?\n");
+			printf("1 = Times Square\n");
+			printf("2 = Hollywood Boulevard\n");
+			printf("3 = S Alameda ST\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					printf("Times Square, esse é bem famosso, certo...\n");
+					currentLevel = 11;
+					break;
+				case 2:
+					printf("Hollywood Boulevard, esse é de gente rica, ok então...\n");
+					currentLevel = 11;
+					break;
+				case 3:
+					printf("S Alameda ST, então ta né...\n");
+					currentLevel = 11;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel ==20) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Uma cozinha americana normal... nada demais\n\n");
+			printf("Oque quer fazer\n");
+			printf("1 = Olhar a geladeira\n");
+			printf("2 = Olhar o armário\n");
+			printf("3 = Voltar ao início\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 21;
+					break;
+				case 2:
+					currentLevel = 22;
+					break;
+				case 3:
+					currentLevel = 11;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel ==21) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Vamos ver oque tem pra comer... Wow um pote de geleia, acho que vou pegar um pouquinho... *nham nham* delícia\n\n");
+			printf("Oque quer fazer\n");
+			printf("1 = Voltar\n");
+			printf("2 = Voltar ao iníciio\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 20;
+					break;
+				case 2:
+					currentLevel = 11;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel ==22) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Abrindo armário* hmm nada além de pratos e... um frasco de coumachlor.. interessante isso pode ser usado como veneno para ratos\n\n");
+			printf("Oque quer fazer\n");
+			printf("1 = Voltar\n");
+			printf("2 = Voltar ao início\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 20;
+					break;
+				case 2:
+					currentLevel = 11;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 23){
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Vamos lá então, quem é o culpado desse assasinato e onde ocorrerá o próximo, respectivamente?\n\n");
+			printf("Selecione uma das opções, Se escolher a opção errada voltará para encontrar as pistas, se escolher a certa o jogo prosseguirá \n");
+			printf("1 = Robert e Times Square\n");
+			printf("2 = Senna e S alameda ST\n");
+			printf("3 = Jessy e Hollywood Boulevard\n");
+			choice = scanint();
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					printf("Errou feio errou rude, tem de encontrar as pistas certas!\n");
+					currentLevel = 11;
+					break;
+				case 2:
+					printf("Acertou a Mizeravi! agora prossigamos com o jogo!\n");
+					currentLevel = 24;
+					break;
+				case 3:
+					printf("Errou feio errou rude, tem de encontrar as pistas certas!\n");
+					currentLevel = 11;
+					break;
+				
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 24) {
+    		carregando();
+    		system("clear");
+    		printf("A culpada por esse assainato e tambem namorada da vítima confessou tudo após ser capturada\n");
+    		getchar();
+    		printf("Ela afirmou ter sido obrigada a fazer isso, caso contrário B.B mataria sua família\n");
+    		getchar();
+    		printf("Oque B.B está fazendo é imperdoável, tornando pessoas inocentes em criminosos, ele deve ser pego o quanto antes\n");
+    		getchar();
+    		printf("Agora ja sei onde será o próximo assasinato, preciso me apressar e descobrir o horário exato, para impedí-lo\n");
+    		getchar();
+			printf("A próxima vítima era uma professora de Matemática, que foi esfaqueada pelo própio Marido\n");
+    		getchar();
+    		printf("Mesmo ja sabendo o culpado eu posso encontrar pistas do próximo assasinato então, vamos lá\n");
+    		getchar();
+			system("clear");
+			printf("\nSe prepare para encontrar o criminoso!\nVamos continuar\n");
+			printf("1 = Continuar o Jogo\n");
+			choice = scanint();
+			while (choice != 1) {
+				printf("Preste atenção voce precisa escolher um número dentre as opções\n");
+				printf("1 = Iniciar o Jogo\n");
+				choice = scanint();
+			}
+			currentLevel = 25;
+	}
 }
 }
