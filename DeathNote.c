@@ -44,14 +44,14 @@ void nomejogo()
 {
     system("clear");
     centralizar();
-    printf("                    ▓█████▄ ▓█████ ▄▄▄     ▄▄▄█████▓ ██░ ██     ███▄    █  ▒█████  ▄▄▄█████▓▓█████ \n");
-    printf("                    ▒██▀ ██▌▓█   ▀▒████▄   ▓  ██▒ ▓▒▓██░ ██▒    ██ ▀█   █ ▒██▒  ██▒▓  ██▒ ▓▒▓█   ▀ \n");
-    printf("                    ░██   █▌▒███  ▒██  ▀█▄ ▒ ▓██░ ▒░▒██▀▀██░   ▓██  ▀█ ██▒▒██░  ██▒▒ ▓██░ ▒░▒███   \n");
-    printf("                    ░▓█▄   ▌▒▓█  ▄░██▄▄▄▄██░ ▓██▓ ░ ░▓█ ░██    ▓██▒  ▐▌██▒▒██   ██░░ ▓██▓ ░ ▒▓█  ▄ \n");
-    printf("                    ░▒████▓ ░▒████▒▓█   ▓██▒ ▒██▒ ░ ░▓█▒░██▓   ▒██░   ▓██░░ ████▓▒░  ▒██▒ ░ ░▒████▒\n");
-    printf("                     ▒▒▓  ▒ ░░ ▒░ ░▒▒   ▓▒█░ ▒ ░░    ▒ ░░▒░▒   ░ ▒░   ▒ ▒ ░ ▒░▒░▒░   ▒ ░░   ░░ ▒░ ░\n");
-    printf("                     ░ ▒  ▒  ░ ░  ░ ▒   ▒▒ ░   ░     ▒ ░▒░ ░   ░ ░░   ░ ▒░  ░ ▒ ▒░     ░     ░ ░  ░\n");
-    printf("                       ░       ░  ░     ░  ░         ░  ░  ░            ░     ░ ░              ░  ░\n\n");
+    printf("                       ▓█████▄ ▓█████ ▄▄▄     ▄▄▄█████▓ ██░ ██     ███▄    █  ▒█████  ▄▄▄█████▓▓█████ \n");
+    printf("                       ▒██▀ ██▌▓█   ▀▒████▄   ▓  ██▒ ▓▒▓██░ ██▒    ██ ▀█   █ ▒██▒  ██▒▓  ██▒ ▓▒▓█   ▀ \n");
+    printf("                       ░██   █▌▒███  ▒██  ▀█▄ ▒ ▓██░ ▒░▒██▀▀██░   ▓██  ▀█ ██▒▒██░  ██▒▒ ▓██░ ▒░▒███   \n");
+    printf("                       ░▓█▄   ▌▒▓█  ▄░██▄▄▄▄██░ ▓██▓ ░ ░▓█ ░██    ▓██▒  ▐▌██▒▒██   ██░░ ▓██▓ ░ ▒▓█  ▄ \n");
+    printf("                       ░▒████▓ ░▒████▒▓█   ▓██▒ ▒██▒ ░ ░▓█▒░██▓   ▒██░   ▓██░░ ████▓▒░  ▒██▒ ░ ░▒████▒\n");
+    printf("                        ▒▒▓  ▒ ░░ ▒░ ░▒▒   ▓▒█░ ▒ ░░    ▒ ░░▒░▒   ░ ▒░   ▒ ▒ ░ ▒░▒░▒░   ▒ ░░   ░░ ▒░ ░\n");
+    printf("                        ░ ▒  ▒  ░ ░  ░ ▒   ▒▒ ░   ░     ▒ ░▒░ ░   ░ ░░   ░ ▒░  ░ ▒ ▒░     ░     ░ ░  ░\n");
+    printf("                          ░       ░  ░     ░  ░         ░  ░  ░            ░     ░ ░              ░  ░\n\n");
 
     printf("               +-++-++-++-++-++-++-+ +-++-++-++-++-+ +-++-++-+ +-++-++-+ +-++-++-++-++-++-++-+ +-++-+ +-++-++-++-++-++-+ +-++-++-++-++-+\n");
     printf("               |A||n||o||t||h||e||r| |N||o||t||e||:| |T||h||e| |L||o||s| |A||n||g||e||l||e||s| |B||B| |M||u||r||d||e||r| |C||a||s||e||s|\n");
@@ -320,9 +320,9 @@ int main(void) {
     		system("clear");
     		printf("Então o culpado pelo sequestro foi Ana, a filha da vítima\n");
     		getchar();
-    		printf("Mas segundo o que desbobri ela foi obrigada a fazer isso, por alguem chamado B.B\n");
+    		printf("Mas segundo o que descobri ela foi obrigada a fazer isso, por alguem chamado B.B\n");
     		getchar();
-    		printf("B.B..., agora me lembrei, seu nome é Beyond BirthDay e ele cresceu comigo no Orfanato Wammy's House e tinhamos uma certa rivalidade\n");
+    		printf("B.B..., agora me lembrei, seu nome é Beyond BirthDay e ele cresceu no Orfanato Wammy's House para me suceder e tinhamos uma certa rivalidade\n");
     		getchar();
     		printf("Isso é um problema, B.B deve ter feito todos essas atrocidades para me desafiar...\n");
     		getchar();
@@ -346,7 +346,7 @@ int main(void) {
 	while (currentLevel == 11) {	//Checks the currentLevel variable to determine what level to play next
 			printObj(watchOut);
 			watchOut = 0;
-			printf("Seu objetivo é descobri quem foi o culpado desse assasinato e onde ocorrerá o próximo assainato\n");
+			printf("Seu objetivo é descobri quem foi o culpado desse assasinato e onde ocorrerá o próximo assasinato\n");
 			printf("Você está dentro do apartamento do repórter músico, para onde deseja ir?\n\n");
 			printf("1 = Vá para a sala de estar\n");
 			printf("2 = Vá para estúdio de música\n");
@@ -676,7 +676,7 @@ int main(void) {
 		while (currentLevel == 24) {
     		carregando();
     		system("clear");
-    		printf("A culpada por esse assainato e tambem namorada da vítima confessou tudo após ser capturada\n");
+    		printf("A culpada por esse assasinato e tambem namorada da vítima confessou tudo após ser capturada\n");
     		getchar();
     		printf("Ela afirmou ter sido obrigada a fazer isso, caso contrário B.B mataria sua família\n");
     		getchar();
@@ -698,6 +698,245 @@ int main(void) {
 				choice = scanint();
 			}
 			currentLevel = 25;
+	}
+		while (currentLevel == 25) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Seu objetivo é descobrir o horário do próximo assasinato de B.B\n");
+			printf("Você está dentro da casa da professora assasinada, para onde deseja ir?\n\n");
+			printf("1 = Vá para a cozinha\n");
+			printf("2 = Vá para a sala de estar\n");
+			printf("3 = Se voce ja cumpriu seu objetivo\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 26;
+					break;
+				case 2:
+					currentLevel = 28;
+					break;
+				case 3:
+					currentLevel = 31;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel ==26) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Uma cozinha meio dessarrumada e com muitos tipos de facas, deve ser porque o marido era um açougueiro\n\n");
+			printf("Oque quer fazer\n");
+			printf("1 = Olhar a geladeira\n");
+			printf("2 = Voltar ao início\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 27;
+					break;
+				case 2:
+					currentLevel = 25;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel ==27) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Nossa... Olha o tanto de carnes, eu prefiro doces...\n\n");
+			printf("Oque quer fazer\n");
+			printf("1 = Voltar ao início\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 25;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 28) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Hmm uma sala bastante organizada típico de uma professora, há um relógio e uma estante de livros...\n\n");
+			printf("Oque quer investigar?\n");
+			printf("1 = Investigar a estante de livros\n");
+			printf("2 = Ir no relógio\n");
+			printf("3 = Voltar ao inicio\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 29;
+					break;
+				case 2:
+					currentLevel = 30;
+					break;
+				case 3:
+					currentLevel = 25;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 29) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Hmm há diversos livros de matemática... cálculos integrais, diferenciais etc... opa alguma coisa caiu parece uma carta...\n");
+			printf("A carta tem alguns ângulos escritos, 90 graus e 180 graus isso pode ser útil...\n\n");
+			printf("Oque quer investigar?\n");
+			printf("1= Ir no relógio\n");
+			printf("2= Voltar ao inicio\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 30;
+					break;
+				case 2:
+					currentLevel = 25;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 30) {	//Checks the currentLevel variable to determine what level to play next
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Um relógio qualquer, talvez se eu ajustar os ponteiros com os angulos da carta eu consiga o horário do próximo assasinato\n");
+			printf("        _____\n");
+			printf("     _.'_____`._\n");
+			printf("   .'.-'  12 `-.`.\n");
+			printf("  /,' 11  ||   1 `. \n");
+			printf(" // 10    ||     2   \n");
+			printf(";;        ||      ::\n");
+			printf("|| 9      O       3 ||\n");
+			printf("::                 ;;\n");
+			printf("    8           4 //\n");
+			printf("   `. 7       5 ,'/\n");
+			printf("   '.`-.__6__.-'.'\n");
+			printf("    ((-._____.-))\n");
+			printf("    _))       ((_\n");
+			printf("   '--'SSt    '--'\n");
+			printf("Oque quer fazer?\n");
+			printf("1 = Voltar ao inicio\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 25;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 31){
+			printObj(watchOut);
+			watchOut = 0;
+			printf("Vamos lá então, qual é o horário do próximo assasinato?\n\n");
+			printf("Selecione uma das opções:\n");
+			printf("1 = 3:30\n");
+			printf("2 = 9:30\n");
+			choice = scanint();
+			switch(choice) {//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					printf("3 e 30 né, certo\n");
+					currentLevel = 33;
+					break;
+				case 2:
+					printf("9 e 30 né, certo vamos lá \n");
+					currentLevel = 32;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+		}
+		while (currentLevel == 32) {
+    		carregando();
+    		system("clear");
+    		printf("Muito bem, uma fonte confiável me informou do dia que aconteceria o assasinato entao agora com todas as informações necessárias posso impedi-lo\n");
+    		getchar();
+    		printf("Aqui estou este é o endereço, mas que cheiro estranho é esse...\n");
+    		getchar();
+    		printf("Booom! Acontece uma explosão e a casa entra em chamas.. L: Droga cheguei tarde, devo ter errado o horário naquele relógio\n");
+    		getchar();
+    		printf("Após os Bombeiros terem apagado o incêndio, foram achados dois cadáveres, indentificados como Beyond BirthDay e a vítima\n");
+    		getchar();
+			printf("No fim L não conseguiu salvar a vítima e nem resolver o caso...\n");
+    		getchar();
+    		printf("GAME OVER\n");
+    		getchar();
+			system("clear");
+			printf("\nInfelizmente você perdeu\nVamos tentar denovo\n");
+			printf("1 = Tentar novamente\n");
+			choice = scanint();
+			while (choice != 1) {
+				printf("Preste atenção voce precisa escolher um número dentre as opções\n");
+				printf("1 = Iniciar o Jogo\n");
+				choice = scanint();
+			}
+			currentLevel = 25;
+	}
+	while (currentLevel == 33) {
+    		carregando();
+    		system("clear");
+    		printf("Muito bem, uma fonte confiável me informou do dia que aconteceria o assasinato entao agora com todas as informações necessárias posso impedi-lo\n");
+    		getchar();
+    		printf("Aqui estou, este é o endereço, *L entra*\n");
+    		getchar();
+    		printf("HIhahHAHAhahahahaha, finalmente nos encontramos pessoalmente L. Diz B.B mantendo a vítima como refém com uma arma na cabeça dela\n");
+    		getchar();
+    		printf("B.B porquê você fez tudo isso? porque fugiu da Wammys House e se tornou esse monstro...\n");
+    		getchar();
+			printf("Porque? hahahha, porque pareceu divertido provar que eu era melhor do que você!\n");
+    		getchar();
+    		printf("Mas agora nada importa L... depois de matá-la irei me matar tambem.. Adeus! *B.B coloca o dedo no gatilho*\n");
+    		getchar();
+    		printf("BANG!, a arma ricocheteia da mão de B.B, foi Watari que atirou com uma sniper de fora da casa, após isso Políciais invadem a casa e rendem B.B\n");
+			getchar();
+			printf("L: Beyond... você deixou os sentimentos te consumirem, principalmente essa sua inveja, eu lamento por tudo, eu desejaria que você não tivesse tomado esse caminho, afinal você poderia ser meu primeiro amigo e meu sucessor...\n");
+			getchar();
+			printf("*Uma lágrima escorre dos cantos dos olhos de B.B mas ele permanece calado*\n");
+			getchar();
+			printf("B.B foi preso e a vítima foi salva com sucesso\n");
+			getchar();
+			printf("Parabéns... Você resolveu o caso FIM DE JOGO\n");
+			getchar();
+			printf("\nEste foi o jogo espero que tenha gostado ^^\n");
+			getchar();
+			printf("1 = Encerrar o Jogo\n");
+			choice = scanint();	//Scans the player's choice
+			switch(choice) {	//Sets the currentLevel variable according to where the player is supposed to go from the 'choice' variable
+				case 1:
+					currentLevel = 34;
+					break;
+				default:
+					watchOut = 1;
+					break;	//Default message for when the player types in the wrong number
+			}
+	}
+	while (currentLevel == 34){
+		system("clear");
+			centralizar();
+    		printf("                                                        ┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼\n");
+    		printf("                                                        ███▀▀▀██┼███▀▀▀███┼███▀█▄█▀███┼██▀▀▀\n");
+    		printf("                                                        ██┼┼┼┼██┼██┼┼┼┼┼██┼██┼┼┼█┼┼┼██┼██┼┼┼\n");
+    		printf("                                                        ██┼┼┼▄▄▄┼██▄▄▄▄▄██┼██┼┼┼▀┼┼┼██┼██▀▀▀\n");
+    		printf("                                                        ██┼┼┼┼██┼██┼┼┼┼┼██┼██┼┼┼┼┼┼┼██┼██┼┼┼\n");
+    		printf("                                                        ███▄▄▄██┼██┼┼┼┼┼██┼██┼┼┼┼┼┼┼██┼██▄▄▄\n");
+    		printf("                                                        ┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼\n");
+    		printf("                                                        ███▀▀▀███┼▀███┼┼██▀┼██▀▀▀┼██▀▀▀▀██▄┼\n");
+    		printf("                                                        ██┼┼┼┼┼██┼┼┼██┼┼██┼┼██┼┼┼┼██┼┼┼┼┼██┼\n");
+    		printf("                                                        ██┼┼┼┼┼██┼┼┼██┼┼██┼┼██▀▀▀┼██▄▄▄▄▄▀▀┼\n");
+    		printf("                                                        ██┼┼┼┼┼██┼┼┼██┼┼█▀┼┼██┼┼┼┼██┼┼┼┼┼██┼\n");
+    		printf("                                                        ███▄▄▄███┼┼┼─▀█▀┼┼─┼██▄▄▄┼██┼┼┼┼┼██▄\n");
+    		printf("                                                        ┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼\n");
+    		getchar();
 	}
 }
 }
