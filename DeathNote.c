@@ -859,7 +859,7 @@ int main(void) {
 		while (currentLevel == 32) {
     		carregando();
     		system("clear");
-    		printf("Muito bem, uma fonte confiável me informou do dia que aconteceria o assasinato entao agora com todas as informações necessárias posso impedi-lo\n");
+    		printf("Muito bem, uma fonte confiável informou do dia que aconteceria o assasinato entao agora com todas as informações necessárias posso impedi-lo\n");
     		getchar();
     		printf("Aqui estou este é o endereço, mas que cheiro estranho é esse...\n");
     		getchar();
@@ -885,7 +885,7 @@ int main(void) {
 	while (currentLevel == 33) {
     		carregando();
     		system("clear");
-    		printf("Muito bem, uma fonte confiável me informou do dia que aconteceria o assasinato entao agora com todas as informações necessárias posso impedi-lo\n");
+    		printf("Muito bem, uma fonte confiável informou do dia que aconteceria o assasinato entao agora com todas as informações necessárias posso impedi-lo\n");
     		getchar();
     		printf("Aqui estou, este é o endereço, *L entra*\n");
     		getchar();
